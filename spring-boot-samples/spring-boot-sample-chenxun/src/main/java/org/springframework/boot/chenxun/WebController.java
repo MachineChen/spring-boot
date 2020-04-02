@@ -23,6 +23,7 @@ import java.util.List;
 @ResponseBody
 public class WebController {
 
+	// http://localhost:6011/web/test
 	@GetMapping(value = "/test")
 	public List test() {
 		List list = new ArrayList();
